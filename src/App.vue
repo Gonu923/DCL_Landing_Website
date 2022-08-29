@@ -16,8 +16,7 @@ export default {
 </script>
 
 <style>
-  /* @import './assets/css/style.css'; */
-  
+
   @import'~bootstrap/dist/css/bootstrap.css'
 </style>
 

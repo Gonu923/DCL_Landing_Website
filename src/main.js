@@ -4,5 +4,4 @@ import { createApp } from "vue";
 import 'bootstrap';
 
 
-
 createApp(App).use(router).mount("#app");
