@@ -1,4 +1,4 @@
-# restaurant-management-system
+# DCL_Landing_Website
 
 ## Project setup
 ```
