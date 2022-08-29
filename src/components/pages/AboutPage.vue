@@ -2,6 +2,7 @@
   <AboutSlider></AboutSlider>
   <AboutHero></AboutHero>
   <WhatweAre></WhatweAre>
+  <WhatweDo></WhatweDo>
   <AboutMission></AboutMission>
   <AboutVission></AboutVission>
   <AboutValue></AboutValue>
@@ -15,6 +16,7 @@ import AboutVission from '../includes/about/AboutVission.vue';
 import AboutValue from '../includes/about/AboutValue.vue';
 import OurHistory from '../includes/about/OurHistory.vue';
 import WhatweAre from '../includes/about/WhatweAre.vue';
+import WhatweDo from '../includes/about/WhatweDo.vue';
 export default {
   name:"AboutPage",
   components:{
@@ -24,7 +26,8 @@ export default {
     AboutVission,
     AboutValue,
     OurHistory,
-    WhatweAre
+    WhatweAre,
+    WhatweDo
 }
   
 }
