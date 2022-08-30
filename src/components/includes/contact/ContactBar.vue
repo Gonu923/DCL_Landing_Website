@@ -11,7 +11,7 @@
               <p>A108 Adam Street, New York, NY 535022</p>
             </div>
           </div><!-- End Info Item -->
-
+          
           <div class="col-lg-3 col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center">
               <i class="fas fa-envelope"></i>

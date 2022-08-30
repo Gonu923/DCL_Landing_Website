@@ -1,12 +1,11 @@
 <template>
-    <div>
-      <h3 class="text-center">Thi is Dhaka Choice Partner Page.</h3>  
-    </div>
+   <PartnerSection></PartnerSection>
 </template>
 <script>
+import PartnerSection from '../includes/partner/PartnerSection.vue';
 export default {
     name:"PartnerPage",
-    components:{},
+    components:{ PartnerSection },
 }
 </script>
 <style>

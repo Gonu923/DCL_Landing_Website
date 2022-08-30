@@ -1,12 +1,11 @@
 <template>
-    <div>
-       <h3 class="text-center">this is medea page.</h3> 
-    </div>
+    <EnterpriseSection></EnterpriseSection>
 </template>
 <script>
+import EnterpriseSection from '../includes/enterprise/EnterpriseSection.vue';
 export default {
     name:"EnterPrise",
-    components:{},
+    components:{ EnterpriseSection },
     
 }
 </script>
