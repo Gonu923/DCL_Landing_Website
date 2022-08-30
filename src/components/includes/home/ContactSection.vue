@@ -12,22 +12,22 @@
           <div class="col-lg-6">
             <div class="row">
               <div class="col-lg-6 info">
-                <i class="bx bx-map"></i>
+                <i class="fas fa-map-marker"></i>
                 <h4>Address</h4>
                 <p>A108 Adam Street,<br>New York, NY 535022</p>
               </div>
               <div class="col-lg-6 info">
-                <i class="bx bx-phone"></i>
+                <i class="fas fa-phone"></i>
                 <h4>Call Us</h4>
                 <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
               </div>
               <div class="col-lg-6 info">
-                <i class="bx bx-envelope"></i>
+                <i class="fas fa-envelope"></i>
                 <h4>Email Us</h4>
                 <p>contact@example.com<br>info@example.com</p>
               </div>
               <div class="col-lg-6 info">
-                <i class="bx bx-time-five"></i>
+                <i class="fas fa-clock"></i>
                 <h4>Working Hours</h4>
                 <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
               </div>
