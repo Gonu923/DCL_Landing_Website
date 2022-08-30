@@ -53,7 +53,7 @@ export default {
 .alt-services .img-bg {
     background-size: cover;
     background-position: center center;
-    background-image: url(../../../assets/images/about/mission.jpg);
+    background-image: url(../../../assets/images/about/one.jpg);
     min-height: 400px;
 }
 

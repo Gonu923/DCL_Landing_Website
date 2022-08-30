@@ -1,11 +1,12 @@
 <template>
-    <h1 class="text-center">Coming Soon</h1>
+    <ServiceSection></ServiceSection>
 </template>
 <script>
+import ServiceSection from '../includes/services/ServiceSection.vue';
     
 export default {
     name:"OurServices",
-    components:{},
+    components:{ ServiceSection },
 
     
 }

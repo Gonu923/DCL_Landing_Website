@@ -1,18 +1,16 @@
 <template>
     <!-- ======= Hero Section ======= -->
   <section class="d-flex align-items-center hero">
-
     <div class="container my-5">
       <div class="row hero_container"  >
         <div class="col-lg-4 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
           <div>
             <h1>Install App & Enjoy the Big Discount</h1>
-            <!-- <h2>Dhaka Choice এর দুর্দান্ত সব অফার পেতে আপনার অ্যাপটি ডাউনলোড বা আপডেট করুন। আপনার সকল কেনাকাটার জন্য সেরা প্ল্যাটফর্ম।</h2> -->
             <p>
               B2C is a kind of product purchasing apps; Customers will be able to purchase products using their apps by connecting directly to the shopper's apps. A customer can avail discounts by purchasing products from any retail or wholesale store using this app. A shopkeeper can purchase products from any retail store and get discounts and reward points, Such as: grocery store, drug store, clothing store, cosmetic store, food store, restaurant, etc.
             </p>
-            <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
-            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
+            <a href="#" class="download-btn"><i class="fab fa-google-play"></i> Google Play</a>
+            <a href="#" class="download-btn"><i class="fab fa-app-store"></i> App Store</a>
           </div>
         </div>
         <div class="col-lg-8 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
