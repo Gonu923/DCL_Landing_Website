@@ -44,11 +44,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Business</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Apply Now</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="partner">Partner</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="message">Message</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="enterprise">Enterprise</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="media">Media</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="vendor-registration">Join Us</a></li>
             </ul>
           </div>
 
@@ -73,7 +73,7 @@
         &copy; Copyright <strong><span>Dhaka Choice Ltd</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://flytesolutions.com/">Flyte Solutions Ltd</a>
+        Designed by <a href="https://flytesolutions.com/" target="_blank">Flyte Solutions Ltd</a>
       </div>
     </div>
   </footer>

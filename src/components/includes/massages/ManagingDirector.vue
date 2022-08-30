@@ -1,5 +1,8 @@
 <template>
     <section id="alt-services" class="alt-services">
+        <div class="section-title">
+          <h2>Messages</h2>
+        </div>
         <div class="container" data-aos="fade-up">
             <div class="row justify-content-around gy-4">
                 <div class="col-lg-4">
@@ -50,6 +53,12 @@ export default {
 }
 </script>
 <style>
+
+.brd_title{
+    margin: auto;
+    width: 80%;
+    border: 1px solid #000;
+}
 .mission_title {
     font-size: 48px;
     font-weight: 700;

@@ -43,7 +43,7 @@ const routes = [
   {
     name: PartnerPage,
     component: PartnerPage,
-    path: "/Partner"
+    path: "/partner"
   },
   {
     name:MediaPage,
@@ -53,7 +53,7 @@ const routes = [
   {
     name:EnterPrise,
     component: EnterPrise,
-    path: "/EnterPrise"
+    path: "/enterprise"
   },
 
 ];

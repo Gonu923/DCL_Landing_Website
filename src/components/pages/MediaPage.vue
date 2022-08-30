@@ -1,15 +1,11 @@
 <template>
-    <div>
-       <h3 class="text-center">This is Media Page</h3> 
-    </div>
+    <GallerySection/>
 </template>
 <script>
+import GallerySection from '../includes/media/GallerySection.vue';
 export default {
     name:"MediaPage",
-    components:{},
+    components:{ GallerySection },
     
 }
 </script>
-<style>
-    
-</style>
