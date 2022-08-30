@@ -85,7 +85,7 @@ export default {
                             <a class="nav-link txt_color " href="/media">Media</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link txt_color  btn-contact" href="#">Contact Us</a>
+                            <a class="nav-link txt_color  btn-contact" href="/contact-us">Contact Us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link txt_color dropdown-toggle " href="#" id="navbarDropdown" role="button"
