@@ -1,0 +1,20 @@
+{
+    "firstSection":
+    {
+        "title": "Install App & Enjoy the Big Discount",
+        "description": "B2C is a kind of product purchasing apps; Customers will be able to purchase products using their apps by connecting directly to the shopper's apps. A customer can avail discounts by purchasing products from any retail or wholesale store using this app. A shopkeeper can purchase products from any retail store and get discounts and reward points, Such as: grocery store, drug store, clothing store, cosmetic store, food store, restaurant, etc."
+    },
+
+    "secondSection": {
+        "title": "App Features",
+        "subtitle": "Install the app and buy your required product at maximum discount. Also, you will get all kinds of home services through our app.",
+        "card": [
+
+            {"title": "", "description": ""},
+            {"title": "", "description": ""},
+            {"title": "", "description": ""},
+            {"title": "", "description": ""},
+            {"title": "", "description": ""}
+        ]
+    }
+}
