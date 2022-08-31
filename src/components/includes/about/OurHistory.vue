@@ -1,5 +1,5 @@
 <template>
-      <section id="alt-services" class="alt-services">
+    <section id="alt-services" class="alt-services">
         <div class="container" data-aos="fade-up">
             <div class="row justify-content-around gy-4">
                 <h2 class="history_title">Our History</h2>
@@ -8,38 +8,39 @@
                     <div class="card" style="width: 100%;">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content. Some quick example text to build on the card title and make up the bulk
-                                of the card's content.Some quick example text to build on the card title and make up the bulk
-                                of the card's content.Some quick example text to build on the card title and make up the bulk
+                                of the card's content. Some quick example text to build on the card title and make up
+                                the bulk
+                                of the card's content.Some quick example text to build on the card title and make up the
+                                bulk
+                                of the card's content.Some quick example text to build on the card title and make up the
+                                bulk
                                 of the card's content.</p>
                         </div>
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md text-center mt-5">
-                                <i class="fas fa-check"></i>
-                                <a class="btn btn-warning mt-3">Innovation</a>
+                            <div class="col-md-5 mt-5">
+                                <a class="btn btn-outline-primary btn-padd" href="">
+                                    <i class="fab fa-facebook-f fa-lg"
+                                        style="color: #55acee"></i>
+                                </a>
+                                <a class="btn btn-outline-primary btn-padd" href="">
+                                    <i class="fab fa-instagram fa-lg"
+                                        style="color: #3F729B"></i>
+                                </a>
+                                <a class="btn btn-outline-primary btn-padd" href="">
+                                    <i class="fab fa-twitter fa-lg"
+                                        style="color: #55acee"></i>
+                                </a>
                             </div>
-                            <div class="col-md text-center mt-5">
-                                <i class="fas fa-check"></i>
-                                <a class="btn btn-warning mt-3">Innovation</a>
-                            </div>
-                            <div class="col-md text-center mt-5">
-                                <i class="fas fa-check"></i>
-                                <a class="btn btn-warning mt-3">Innovation</a>
-                            </div>
-                            <div class="col-md text-center mt-5">
-                                <i class="fas fa-check"></i>
-                                <a class="btn btn-warning mt-3">Innovation</a>
+                            <div class="col-md-7 text-center mt-5">
+                                
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 img-bg " data-aos="zoom-in" data-aos-delay="100">
                 </div>
-
-                
-
             </div>
         </div>
     </section>
@@ -48,11 +49,14 @@
 export default {
     name: "OurHistory",
     components: {
-        
+
     }
 }
 </script>
 <style>
+.btn-padd{
+    margin-left: 10px;
+}
 .history_title {
     font-size: 48px;
     font-weight: 700;
