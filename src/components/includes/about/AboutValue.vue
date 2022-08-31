@@ -16,20 +16,20 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md text-center mt-5">
-                                <i class="fas fa-check"></i>
+                                <i class="fa fa-creative-commons"></i>
                                 <a class="btn btn-warning mt-3">Innovation</a>
                             </div>
                             <div class="col-md text-center mt-5">
                                 <i class="fas fa-check"></i>
-                                <a class="btn btn-warning mt-3">Innovation</a>
+                                <a class="btn btn-warning mt-3">Our Goals</a>
+                            </div>
+                            <div class="col-md text-center mt-5">
+                                <i class="fas fa-users"></i>
+                                <a class="btn btn-warning mt-3">Teamwork</a>
                             </div>
                             <div class="col-md text-center mt-5">
                                 <i class="fas fa-check"></i>
-                                <a class="btn btn-warning mt-3">Innovation</a>
-                            </div>
-                            <div class="col-md text-center mt-5">
-                                <i class="fas fa-check"></i>
-                                <a class="btn btn-warning mt-3">Innovation</a>
+                                <a class="btn btn-warning mt-3">Commitment</a>
                             </div>
                         </div>
                     </div>

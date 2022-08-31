@@ -10,8 +10,8 @@
                 <div class="col-lg-5 d-flex flex-column justify-content-center ">
                     
                     <div class="icon-box d-flex position-relative align-items-center"  data-aos-delay="100">
-                        <i class="fas fa-check flex-shrink-0"></i>
-                        <div class="d-flex align-items-center">
+                        <i class="fas fa-check icon-check flex-shrink-0"></i>
+                        <div class="d-flex align-items-center txt_icon">
                             <p class="fs-5 fw-normal p-3">
                                 To fully understand and gratify client requirements
                             </p>
@@ -20,8 +20,8 @@
                     <!-- End Icon Box -->
 
                     <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="200">
-                        <i class="fas fa-check flex-shrink-0"></i>
-                        <div class="d-flex align-items-center">
+                        <i class="fas fa-check icon-check flex-shrink-0"></i>
+                        <div class="d-flex align-items-center txt_icon">
                             
                             <p class="fs-5 fw-normal p-3">
                                 To always supply the right products & services
@@ -29,8 +29,8 @@
                         </div>
                     </div>
                     <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="200">
-                        <i class="fas fa-check flex-shrink-0"></i>
-                        <div class="d-flex align-items-center">
+                        <i class="fas fa-check icon-check flex-shrink-0"></i>
+                        <div class="d-flex align-items-center txt_icon">
                             
                             <p class="fs-5 fw-normal p-3">
                                 To build long-term relationships with clients
@@ -40,8 +40,8 @@
                     <!-- End Icon Box -->
 
                     <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="300">
-                        <i class="fas fa-check flex-shrink-0"></i>
-                        <div class="d-flex align-items-center">
+                        <i class="fas fa-check icon-check flex-shrink-0"></i>
+                        <div class="d-flex align-items-center txt_icon">
                             
                             <p class="fs-5 fw-normal p-3">
                                 To maintain dominance in its market segment by constantly innovating products and services as well as by ensuring excellence in all operation.
@@ -51,8 +51,8 @@
                     <!-- End Icon Box -->
 
                     <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="400">
-                        <i class="fas fa-check flex-shrink-0"></i>
-                        <div class="d-flex align-items-center">
+                        <i class="fas fa-check icon-check flex-shrink-0"></i>
+                        <div class="d-flex align-items-center txt_icon">
                             
                             <p class="fs-5 fw-normal p-3">
                                 To adhere to all global standards and incorporate all the necessary quality protocols.
@@ -73,6 +73,13 @@ export default {
 }
 </script>
 <style>
+.icon-check{
+    margin-right: 0px !important;
+}
+
+.txt_icon{
+    text-align: justify;
+}
 .mission_title {
     font-size: 48px;
     font-weight: 700;

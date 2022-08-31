@@ -5,8 +5,7 @@
                 <h2 class="vision_title">Our Vision</h2>
                 <hr>
                 <div class="col-lg-5 d-flex flex-column justify-content-center">
-                    <div class="icon-box d-flex position-relative align-items-center"  data-aos-delay="100">
-                        <i class="fas fa-check flex-shrink-0"></i>
+                    <div class="icon-box d-flex position-relative align-items-center para"  data-aos-delay="100">
                         <div class="d-flex align-items-center">
                             <p class="fs-5 fw-normal p-3">
                                 Dhaka Choice Ltd has already become one of the largest conglomerates and the leader in many areas of business and industry in Bangladesh. It wishes to go far ahead from where it is now. The company wants to be the largest business house of the country and the biggest contributor, from the private sector, to the economic and social development. It also wishes to bring more and more people under job and thus become the largest employer in the private sector.
@@ -15,8 +14,7 @@
                     </div>
                     <!-- End Icon Box -->
 
-                    <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="200">
-                        <i class="fas fa-check flex-shrink-0"></i>
+                    <div class="icon-box d-flex position-relative align-items-center para" data-aos="fade-up" data-aos-delay="200">
                         <div class="d-flex align-items-center">
                             
                             <p class="fs-5 fw-normal p-3">
@@ -24,8 +22,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="icon-box d-flex position-relative align-items-center" data-aos="fade-up" data-aos-delay="200">
-                        <i class="fas fa-check flex-shrink-0"></i>
+                    <div class="icon-box d-flex position-relative align-items-center para" data-aos="fade-up" data-aos-delay="200">
                         <div class="d-flex align-items-center">
                             
                             <p class="fs-5 fw-normal p-3">
@@ -49,6 +46,13 @@ export default {
 }
 </script>
 <style>
+.para{
+  text-align: justify;
+}
+.para:hover{
+  transform: skew(5deg);
+}
+
 .vision_title {
     font-size: 48px;
     font-weight: 700;

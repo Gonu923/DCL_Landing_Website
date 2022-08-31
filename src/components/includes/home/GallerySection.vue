@@ -1,205 +1,274 @@
 <template >
   <!-- ======= Gallery Section ======= -->
-  <section id="gallery" class="gallery">
-    <div class="container" data-aos="fade-up">
-
+  <section id="projects" class="projects">
       <div class="section-title">
-        <h2>Gallery</h2>
-        <p>All the benefits that you will get with the help of Dhaka Choice Ltd app. Some of its features and samples of
-          our services.</p>
+          <h2>Gallery</h2>
       </div>
+      <div class="container" data-aos="fade-up">
 
-    </div>
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
-    <div class="container-fluid" data-aos="fade-up">
-      <!-- <div class="gallery-slider swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="../../../assets/images/gallery/1.png" class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><img src="../../../assets/images/gallery/2.png"
-              class="img-fluid" alt=""></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/4.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/4.png" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/5.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/5.png" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/6.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/6.png" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/7.png" class="gallery-lightbox"
-              data-gall="gallery-carousel"><img src="../../../assets/images/gallery/7.png" class="img-fluid"
-                alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/8.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/8.png" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/9.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/9.png" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/10.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/10.png" class="img-fluid" alt=""></a>
-          </div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/11.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/11.png" class="img-fluid" alt=""></a></div>
-          <div class="swiper-slide"><a href="../../../assets/images/gallery/12.png"
-              class="gallery-lightbox" data-gall="gallery-carousel"><img
-                src="../../../assets/images/gallery/12.png" class="img-fluid" alt=""></a></div>
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/construction-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/repairs-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/construction-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/repairs-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/design-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/remodeling-3.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/construction-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/repairs-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="../../../assets/images/img/projects/design-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="../../../assets/images/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+          </div><!-- End Projects Container -->
+
         </div>
-        <div class="swiper-pagination"></div>
-      </div> -->
 
-      <div class="swiper-wrapper">
-        <swiper :slides-per-view="7" :space-between="50"  :autoplay=' {
-        "delay": 2500,
-        "disableOnInteraction": false
-    }' 
-     :loop="true" @swiper="onSwiper" @slideChange="onSlideChange">
-          <swiper-slide>
-            <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                  src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                  src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                  src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                  src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                  src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                  src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-
-          </swiper-slide>
-          <swiper-slide>
-            <div class="swiper-slide"><a href="../../../assets/images/gallery/3.png"><img
-                  src="../../../assets/images/gallery/3.png" class="img-fluid" alt=""></a></div>
-
-          </swiper-slide>
-
-        </swiper>
       </div>
-
-    </div>
-  </section><!-- End Gallery Section -->
+    </section><!-- End Our Projects Section -->
 </template>
-<script>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-// Import Swiper styles
-import 'swiper/css';
 
-export default {
-
-  name: "gallerySection",
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log('slide change');
-    };
-    return {
-      onSwiper,
-      onSlideChange,
-       swiperOptions: {
-          breakpoints: {       
-      320: {       
-         slidesPerView: 1,
-         spaceBetween: 10     
-      },          
-      770: {       
-         slidesPerView: 3,       
-         spaceBetween: 50     
-      },   
-  
-      920: {       
-         slidesPerView: 5,       
-         spaceBetween: 30     
-      } 
-   }   
-    },
-    autoplay:{
-        delay:1000,
-
-    }
-
-
-
-
-
-    };
-  },
-
-}
-</script>
 <style>
-.gallery {
-  overflow: hidden;
-}
-
-
-.gallery .swiper-slide {
-  transition: 0.3s;
-}
-
-.gallery .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.gallery .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid orange;
-}
-
-.gallery .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: orange;
-}
-
-.gallery .swiper-slide-active {
+      .projects .portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
   text-align: center;
 }
 
-.section-title p {
-
-  font-size: 24px;
-  font-weight: 400;
-  font-family: "Poppins", sans-serif;
-  color: #27282c;
+.projects .portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 10px;
+  line-height: 1;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
 }
 
-@media (min-width: 992px) {
-  .gallery .swiper-wrapper {
-    padding: 40px 0;
-  }
+.projects .portfolio-flters li:hover,
+.projects .portfolio-flters li.filter-active {
+  color: var(--color-primary);
+}
 
-  .gallery .swiper-slide-active {
-    border: 5px solid orange;
-    padding: 4px;
-    background: #fff;
-    z-index: 1;
-    transform: scale(1.2);
-    margin-top: 10px;
-    border-radius: 5px;
+.projects .portfolio-flters li:first-child {
+  margin-left: 0;
+}
+
+.projects .portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 575px) {
+  .projects .portfolio-flters li {
+    font-size: 14px;
+    margin: 0 5px;
   }
+}
+
+.projects .portfolio-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.projects .portfolio-content img {
+  transition: 0.3s;
+}
+
+.projects .portfolio-content .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+}
+
+.projects .portfolio-content .portfolio-info h4 {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: 400;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--color-primary);
+}
+
+.projects .portfolio-content .portfolio-info p {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.projects .portfolio-content .portfolio-info .preview-link,
+.projects .portfolio-content .portfolio-info .details-link {
+  position: absolute;
+  left: calc(50% - 40px);
+  font-size: 26px;
+  top: calc(50% - 14px);
+  color: #fff;
+  transition: 0.3s;
+  line-height: 1.2;
+}
+
+.projects .portfolio-content .portfolio-info .preview-link:hover,
+.projects .portfolio-content .portfolio-info .details-link:hover {
+  color: var(--color-primary);
+}
+
+.projects .portfolio-content .portfolio-info .details-link {
+  left: 50%;
+  font-size: 34px;
+  line-height: 0;
+}
+
+.projects .portfolio-content:hover .portfolio-info {
+  opacity: 1;
+}
+
+.projects .portfolio-content:hover img {
+  transform: scale(1.1);
 }
 </style>
