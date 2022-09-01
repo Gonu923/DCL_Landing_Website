@@ -31,7 +31,7 @@
                         src="../../assets/images/cloth_store.png" alt="" class="card-img-top mx-auto">
                     <div class="card-body p-0">
                         <div class="card-title text-center">
-                            <p class="text-dark mb-0">Cloth Store</p>
+                            <p class="text-dark mb-0">Grocery</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         src="../../assets/images/cloth_store.png" alt="" class="card-img-top mx-auto">
                     <div class="card-body p-0">
                         <div class="card-title text-center">
-                            <p class="text-dark mb-0">Cloth Store</p>
+                            <p class="text-dark mb-0">Electronics</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                         src="../../assets/images/cloth_store.png" alt="" class="card-img-top mx-auto">
                     <div class="card-body p-0">
                         <div class="card-title text-center">
-                            <p class="text-dark mb-0">Cloth Store</p>
+                            <p class="text-dark mb-0">Medicine</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                         src="../../assets/images/cloth_store.png" alt="" class="card-img-top mx-auto">
                     <div class="card-body p-0">
                         <div class="card-title text-center">
-                            <p class="text-dark mb-0">Cloth Store</p>
+                            <p class="text-dark mb-0">Food</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                         src="../../assets/images/cloth_store.png" alt="" class="card-img-top mx-auto">
                     <div class="card-body p-0">
                         <div class="card-title text-center">
-                            <p class="text-dark mb-0">Cloth Store</p>
+                            <p class="text-dark mb-0">Shoe Store</p>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                         src="../../assets/images/cloth_store.png" alt="" class="card-img-top mx-auto">
                     <div class="card-body p-0">
                         <div class="card-title text-center">
-                            <p class="text-dark mb-0">Cloth Store</p>
+                            <p class="text-dark mb-0">Electrics</p>
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                         src="../../assets/images/cloth_store.png" alt="" class="card-img-top mx-auto">
                     <div class="card-body p-0">
                         <div class="card-title text-center">
-                            <p class="text-dark mb-0">Cloth Store</p>
+                            <p class="text-dark mb-0">Febrics</p>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@ export default {
           breakpoints: {       
       320: {       
          slidesPerView: 3,
-         spaceBetween: 10     
+         spaceBetween: 30     
       },          
       770: {       
          slidesPerView: 5,       
