@@ -1,5 +1,7 @@
 # DCL_Landing_Website
 
+This is the website for Dhaka Choice Ltd. 
+
 ## Project setup
 ```
 npm install
