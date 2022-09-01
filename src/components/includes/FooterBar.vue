@@ -6,7 +6,10 @@
           <div class="col-lg-6">
             <h4>Subscribe Our News Letter</h4>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email" /><input
+                type="submit"
+                value="Subscribe"
+              />
             </form>
           </div>
         </div>
@@ -16,78 +19,121 @@
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Dhaka Choice Ltd</h3>
             <p>
-              House#254, Road#03, <br>
-              Ground Floor, Baridhara<br>
-              DOHS, Dhaka-1212 <br><br>
-              <strong>Phone:</strong> 
-              +8801404411444<br>
+              House#254, Road#03, <br />
+              Ground Floor, Baridhara<br />
+              DOHS, Dhaka-1212 <br /><br />
+              <strong>Phone:</strong>
+              +8801404411444<br />
               <strong>Email:</strong> info.dhakachoice@gmail.com
-              <br>
+              <br />
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Navigation</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="about-us">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="our-services">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="/">Home</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="about-us">About us</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="our-services">Services</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="#">Terms of service</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="#">Privacy policy</router-link>
+              </li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="partner">Partner</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="message">Message</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="enterprise">Enterprise</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="media">Media</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="vendor-registration">Join Us</a></li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="partner">Partner</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="message">Message</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="enterprise">Enterprise</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="media">Media</router-link>
+              </li>
+              <li>
+                <i class="bx bx-chevron-right"></i>
+                <router-link to="vendor-registration">Join Us</router-link>
+              </li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra videa magna
+              derita valies
+            </p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
-              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+              <router-link to="#" class="twitter"
+                ><i class="fab fa-twitter"></i
+              ></router-link>
+              <router-link to="#" class="facebook"
+                ><i class="fab fa-facebook"></i
+              ></router-link>
+              <router-link to="#" class="instagram"
+                ><i class="fab fa-instagram"></i
+              ></router-link>
+              <router-link to="#" class="google-plus"
+                ><i class="fab fa-skype"></i
+              ></router-link>
+              <router-link to="#" class="linkedin"
+                ><i class="fab fa-linkedin"></i
+              ></router-link>
             </div>
           </div>
-
         </div>
       </div>
     </div>
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Dhaka Choice Ltd</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Dhaka Choice Ltd</span></strong
+        >. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://flytesolutions.com/" target="_blank">Flyte Solutions Ltd</a>
+        Designed by
+        <router-link to="https://flytesolutions.com/" target="_blank"
+          >Flyte Solutions Ltd</router-link
+        >
       </div>
     </div>
   </footer>
 </template>
 <script>
 export default {
-	name:"FooterBar",
-	components:{
-		
-	}
-}
+  name: "FooterBar",
+  components: {},
+};
 </script>
 <style >
-	#footer {
+#footer {
   background: #fff;
   padding: 0 0 30px 0;
   color: #47536e;
@@ -121,13 +167,13 @@ export default {
   text-align: left;
 }
 
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: 0;
@@ -143,7 +189,7 @@ export default {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#footer .footer-newsletter form input[type=submit]:hover {
+#footer .footer-newsletter form input[type="submit"]:hover {
   background: rgb(255, 111, 0);
 }
 
@@ -255,7 +301,6 @@ export default {
 }
 
 @media (max-width: 768px) {
-
   #footer .copyright,
   #footer .credits {
     float: none;
